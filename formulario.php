@@ -8,6 +8,7 @@ $(document).ready(function(){
 		$('input').each(function(){
 			$(this).addClass('form-control');
 		});
+
 		
 		$('button').after('<p>');
 		$('button').before('</p>');
