@@ -1,5 +1,5 @@
 # relatorio
- para executar a aplicacao basta criar os usuarios 
+ para executar a aplicacao basta criar os usuarios <br/>
  usuario root 
  senha admin
  criar a base de dados 
