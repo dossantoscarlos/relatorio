@@ -1,0 +1,14 @@
+{
+    "name": "cliente/relatorio",
+    "description": "exxemplo de geracao  de relatorio pdf com fpdf",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Carlos",
+            "email": "anjoazrael10@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}

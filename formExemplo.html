@@ -1,0 +1,39 @@
+<html>
+<head>
+    <title>Form Exemple</title>
+    <script type='text/javascript'>
+      window.onload= function(){
+          var uri = document.URL;
+          var quebraURI = uri.split("&");
+          console.log(uri);
+          var msg = document.getElementById('mensagem');
+          var form = document.getElementById('formOne');
+          var buttonSubmit = document.getElementById("buttons");
+          var oculto = document.getElementById("oculto");
+
+          buttonSubmit.addEventListener('click',mudaStatus,false);
+
+          function mudaStatus(){
+              oculto.value="fechado";
+              return true;
+          };
+
+          if(quebraURI[1] =="status=fechado"){
+            form.style = 'display:none';
+            msg.style  = 'display:block';
+            msg.innerHTML ='Formulario Fechado';
+          }
+      };
+
+    </script>
+</head>
+<body>
+  <form method="post" action="" id='formOne'>
+      <label for="">Consulta</label>
+      <input type="text" class="form-control" name='consulta' placeholder="Seacher..." />
+      <input type="hidden" class='form-control' name='status'  id="oculto" value="000" />
+      <button type='submit' id='buttons'>Enviar</button>
+  </form>
+  <span id='mensagem'></span>
+</body>
+</html>
