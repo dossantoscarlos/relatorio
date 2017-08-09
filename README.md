@@ -1,10 +1,7 @@
 # relatorio
  para executar a aplicacao basta criar os usuarios <br/>
- usuario root 
- senha admin
- criar a base de dados 
- relatorio
- Criar a tabela
- clientes
+ usuario: <b>root</b> <br/>
+ senha:<b> admin<b><br/>
+ criar a base de dados <b>relatorio</b>, criar a tabela: <b>clientes</b><br/>
  criar os as colunas no banco de dados
- ['id'] ['nomeCliente'] ['cpf'] ['celularCliente'] ['rua']  ['numeroCasa'] ['complemento'] ['email']
+<b> ['id'] ['nomeCliente'] ['cpf'] ['celularCliente'] ['rua']  ['numeroCasa'] ['complemento'] ['email']</b>
